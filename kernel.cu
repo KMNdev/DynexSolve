@@ -32,6 +32,8 @@
 // ./dynexsolve -mining-address XwmfZnrGxfsDsg896z4CLfVzddQiYbMSTWcHoH2XT4c9RHRKHjon6QrAnS9QoSFL9BiQ5cShvnieSMwtMHik2gsF2zjgwL84Y -stratum-url dnx.sg.ekapool.com -stratum-port 19331 -stratum-paymentid 3683cac3c8790d2f35808c7fc11b15f56034961a4497d418f930307346ead71a -stratum-password child@worker -no-cpu
 // nvcc ip_sockets.cpp portability_fixes.cpp tcp_sockets.cpp dprintf.cpp jsonxx.cc Dynexchip.cpp kernel.cu -o dynexsolve -O4 -lcurl libCrypto.a
 
+
+
 #pragma comment(lib, "libcurl.lib" )
 #pragma comment(lib, "winmm.lib" )
 #pragma comment(lib, "ws2_32.lib")
